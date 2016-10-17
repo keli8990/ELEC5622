@@ -19,17 +19,8 @@
 <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
 <link rel="stylesheet" href="lib/zoom-fold/common.css" type="text/css" />
 
+
 <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
-<script type="text/javascript" src="js/content_zoom.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('div.small_pic a').fancyZoom({scaleImg: true, closeOnClick: true});
-		$('#zoom_word_1').fancyZoom({width:400, height:200});
-		$('#zoom_word_2').fancyZoom();
-		$('#zoom_flash').fancyZoom();
-	});
-</script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"
 	type="text/javascript"></script>
@@ -47,9 +38,17 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
 <link rel="stylesheet" type="text/css" href="stylesheets/premium.css">
 
+
 </head>
 <body class=" theme-blue">
-
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('div.small_pic a').fancyZoom({scaleImg: true, closeOnClick: true});
+		$('#zoom_word_1').fancyZoom({width:400, height:200});
+		$('#zoom_word_2').fancyZoom();
+		$('#zoom_flash').fancyZoom();
+	});
+</script>
 	<!-- Demo page code -->
 
 	<script type="text/javascript">
@@ -133,7 +132,7 @@
 				<li class="dropdown hidden-xs"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown"> <span
 						class="glyphicon glyphicon-user padding-right-small"
-						style="position: relative; top: 3px;"></span> Jack Smith <i
+						style="position: relative; top: 3px;"></span> ${userdetail.name} <i
 						class="fa fa-caret-down"></i>
 				</a>
 
@@ -199,55 +198,57 @@
 			</ul>
 
 			<div class="row">
+				<div class="col-md-2">
+			<div class="small_pic">
+                        <a href="#pic_one">
+                           <img src="${userdetail.user_img }"  width = "200px" height="250px" class="img-responsive"/>
+                        </a>
+                    </div>
+			</div>
 				<div class="col-md-10">
 					<br>
 					<div id="myTabContent" class="tab-content">
 					
 						<div class="tab-pane active in" id="home">
-						<div class="col-md-4">
+						<br><br><br>
+						<div class="col-md-5">
 						
 								
 								
-								
-								<div class="small_pic">
-                        <a href="#pic_one">
-                           <img src="${userdetail.user_img }"  width = "200px" height="250px" class="img-responsive"/>
-                        </a>
-                    </div>
-                   
+							
                 
                 
             
        
-    <!-- 要放大显示的div -->
-    <div id="pic_one" style="display:none;"><img src="${userdetail.user_img }" /></div>
+   
+   
 
 			
 								
 								
 								</div>
 							<form id="tab">
-							<div class="col-md-4">
+							<div class="col-md-3">
 								<div class="form-group">
 									<label>Username</label>
 									<div class="form-control">${userdetail.name}</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-3">
 								<div class="form-group">
 									<label>Age</label>
 									<div class="form-control">${userdetail.age}</div>
 								</div>
 								</div>
 								
-								<div class="col-md-4">
+								<div class="col-md-3">
 								<div class="form-group">
 									<label>Gender</label>
 									<div class="form-control">${userdetail.gender}</div>
 								</div>
 								</div>
 								
-								<div class="col-md-4">
+								<div class="col-md-3">
 								<div class="form-group">
 									<label>Job</label>
 									<div class="form-control">${userdetail.job_title}</div>
@@ -340,10 +341,33 @@
 									<tbody>
 										<tr>
 											<c:forEach var="bflist" items="${bflist}">
-												<td>${bflist.hrMax }</td>
-												<td class="center">${bflist.hrMean}</td>
-
-												<td class="center">${bflist.hrMin }</td>
+												<c:choose>
+												   <c:when test="${bflist.hrMax>=160}">
+												   	<td style="color: red">${bflist.hrMax }</td>
+											       </c:when>
+													 <c:otherwise>
+													 	<td>${bflist.hrMax }</td>
+													</c:otherwise> 
+                                               </c:choose> 
+											   <c:choose>
+												   <c:when test="${bflist.hrMean>=160}">
+												   	<td style="color: red">${bflist.hrMean }</td>
+											       </c:when>
+												     <c:when test="${bflist.hrMean<=60}">
+												   	<td style="color: blue">${bflist.hrMean }</td>
+											       </c:when>
+													 <c:otherwise>
+													 	<td>${bflist.hrMean }</td>
+													</c:otherwise> 
+                                               </c:choose> 
+                                               <c:choose>
+												   <c:when test="${bflist.hrMin<=60}">
+												   	<td style="color: blue">${bflist.hrMin }</td>
+											       </c:when>
+													 <c:otherwise>
+													 	<td>${bflist.hrMin }</td>
+													</c:otherwise> 
+                                               </c:choose> 
 												<td class="center">${bflist.hrRange }</td>
 												<td class="center">${bflist.hrSTD }</td>
 												<td class="center">${bflist.hrVar }</td>
@@ -353,7 +377,6 @@
 										</c:forEach>
 
 									</tbody>
-
 								</table>
 							</div>
 						</div>
@@ -386,7 +409,19 @@
 										<tr>
 											<c:forEach var="bflist" items="${bflist}">
 												<td class="center">${bflist.scMax }</td>
-												<td class="center">${bflist.scMean }</td>
+												
+												<c:choose>
+												   <c:when test="${bflist.scMean>=0}">
+												   	<td class="center" style="color: red">${bflist.scMean }</td>
+											       </c:when>
+												     <c:when test="${bflist.hrMean<0}">
+												   	<td class="center" style="color: blue">${bflist.scMean }</td>
+											       </c:when>
+													 <c:otherwise>
+													 	<td>${bflist.hrMean }</td>
+													</c:otherwise> 
+                                               </c:choose> 
+                                               
 												<td class="center">${bflist.scMin }</td>
 												<td class="center">${bflist.scRange }</td>
 												<td class="center">${bflist.scSTD }</td>

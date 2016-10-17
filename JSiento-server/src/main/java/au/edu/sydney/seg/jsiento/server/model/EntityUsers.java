@@ -52,7 +52,8 @@ public class EntityUsers implements Serializable{
 	@Column(name="user_img")
 	private String user_img;
 	
-	
+	@Column(name="disease_img")
+	private String disease_img;
 
 	
 	public int getId() {
@@ -143,6 +144,14 @@ public class EntityUsers implements Serializable{
 
 	public void setUser_img(String user_img) {
 		this.user_img = user_img;
+	}
+
+	public String getDisease_img() {
+		return disease_img;
+	}
+
+	public void setDisease_img(String disease_img) {
+		this.disease_img = disease_img;
 	}
 	
 }

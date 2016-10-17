@@ -43,4 +43,14 @@ public class DocController {
 		}
 		
 	}
+	
+	@RequestMapping(value = "fit_page", method = RequestMethod.GET)
+	public String fitChange(HttpServletRequest request, HttpServletResponse response){
+		return "fit";
+	}
+	
+	@RequestMapping(value = "life_page", method = RequestMethod.GET)
+	public String lifeChange(HttpServletRequest request, HttpServletResponse response){
+		return "lifestyle";
+	}
 }

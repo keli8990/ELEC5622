@@ -50,6 +50,13 @@
         .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover { 
             color: #fff;
         }
+        .section {
+	 	 float: left;
+  		 margin: 5px;
+		 padding: 10px;
+		 width: 500px;
+		 height: 650px;
+		}
     </style>
 
     <script type="text/javascript">
@@ -147,7 +154,7 @@
 					class="label label-info">+3</span></a></li>
 			<li><ul class="accounts-menu nav nav-list collapse">
 					<li><a href="liftstyle.jsp"><span class="fa fa-caret-right"></span>
-							Lift Style</a></li>
+							Life Style</a></li>
 					<li><a href="fit.jsp"><span class="fa fa-caret-right"></span>
 							Fitness</a></li>
 					
@@ -167,29 +174,91 @@
         </div>
         <div class="main-content">
             
-<h3>Terms of Use</h3>
-These Terms and Conditions constitute an agreement (“Agreement”) between you (“you”, “your”, “user”, “Customer”) and the Company.Avocado gumbo artichoke ricebean groundnut tigernut. Daikon kakadu plum water spinach garbanzo eggplant fava bean chard rock melon carrot rutabaga water chestnut broccoli courgette onion. 
+<h3>What Is Heart Rate?</h3>
+	<p>Heart rate, or pulse, is the number of times your heart beats per minute. </p>
 
-<h3>Eligibility and Identity.</h3>
-To be eligible to use our Services, you must be at least 13 years old. Sorrel jícama tomato silver beet wattle seed black-eyed pea garlic fennel tigernut okra beetroot shallot. Soko shallot melon dandelion bamboo shoot chickpea soybean pumpkin kakadu plum parsley ricebean grape courgette courgette jícama tatsoi. Black-eyed pea gourd tomatillo arugula cucumber celery mustard black-eyed pea cauliflower soybean rutabaga turnip groundnut.
+	<p>The measurement of the human heart rate is very useful in medicine and science. 
+	At rest heart rate can indicate levels of fitness or the presence of disease or stress, 
+	during exercise it indicates fitness level and exercise intensity, and the maximum level 
+	is a measure of your cardiac capacity and is an indicator of fatigue.</p>
 
-<h3>Termination</h3>
-You may terminate this Agreement at any time by ceasing all use of the Services and by notifying us. The Company may terminate this Agreement, at any time, without notice to you, if it believes, in its sole judgment, that you have breached or may breach any term or condition of this Agreement. Fennel garlic melon broccoli kohlrabi dulse black-eyed pea chicory watercress shallot bamboo shoot cucumber rutabaga ricebean gourd chickweed gumbo. Burdock fennel sorrel cress collard greens tomato tigernut salad chickweed yarrow water spinach catsear earthnut pea cabbage dulse potato. Onion courgette bitterleaf rutabaga tomatillo tigernut groundnut courgette water spinach tomato. Celery ricebean cabbage salsify caulie watercress cress collard greens potato chard gourd pea sprouts cucumber dulse gram. Leek summer purslane tatsoi catsear celtuce broccoli rabe onion zucchini.
+	<p>Normal heart rate varies from person to person. 
+	Knowing yours can be an important heart-healthy gauge.</p>
 
-<h3>Use of Services & Account</h3>
-You represent and warrant that you possess the legal right and ability to enter into this Agreement. You agree not to use the Materials, Content, Services, and your Account for any unlawful or abusive purpose or in any way which interferes with our ability to provide Services to our customers, or which damages our property. Chickpea gourd coriander daikon zucchini lettuce tomatillo sierra leone bologi maize parsnip grape melon kohlrabi welsh onion. Celery wakame corn garlic courgette silver beet cabbage gram amaranth jícama bitterleaf. Ricebean bunya nuts prairie turnip water chestnut artichoke cauliflower watercress gourd cabbage okra broccoli rabe. Burdock leek sorrel radicchio azuki bean collard greens winter purslane broccoli rabe gourd water chestnut pumpkin gumbo. Azuki bean green bean kohlrabi kombu aubergine salsify lotus root turnip lentil radicchio nori eggplant sorrel. 
 
-<h3>Modification to Service</h3>
-The Company may change, suspend, or discontinue all or any part of the Service at any time, with or without reason. You acknowledge that the operation of the Service may from time to time encounter technical or other problems and may not necessarily continue uninterrupted or without technical or other errors and The Company shall not be responsible to you or others for any such interruptions, errors or problems or an outright discontinuance of the Service. 
+<h3>Normal Heart Rate Range</h3>
+	<p>As you age, changes in the rate and regularity of your pulse can change and may signify a heart condition or other condition that needs to be addressed.
+		Below is a chart relating heart rate and age levels.</p>
+		<div align=center>
+		<img src=".\images\heart_rate_level.png" width="700" height="450" /></div>
 
-<h3>Intellectual Property Ownership</h3>
-All Materials, Services, Accounts, and content, including, but not limited to, policy information, text, software, music, sound, photographs, video, graphics, the arrangement of text and images, commercially produced information, and other material contained on the Site or through the Services (“Content”), are provided by The Company unless indicated otherwise. Welsh onion tigernut broccoli asparagus brussels sprout jícama eggplant earthnut pea cress chickpea gourd zucchini. Radicchio lentil cucumber groundnut endive kohlrabi winter purslane. Seakale plantain quandong celtuce shallot fennel seakale epazote groundnut dandelion.
+		
+<h3>Factors Influencing Heart Rate</h3>
+ <div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Body Temperature </h4>
+			<p>When your body temperature changes, so does your heart rate. Heart rate will increases when heat is gained by the body such as in hot climates and during exercise in order to transfer more heat away from the body.
+ 			When the body loses heat such as in cold weather or a cold shower, heart rate decreases to preserve core temperature.</p>
+	</blockquote>
+ 	<div align=center>
+		<img src=".\images\body_temperature.png" width="500" height="380" /></div>
+</div>
 
-<h3>Privacy</h3>
-Please see our <a href="privacy-policy.html">Privacy Policy</a> as set forth on the site.
+<div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Emotion </h4>
+		<p>Different emotions may affect the heart rate.
+ 		For example, when you feel fear that your body naturally responds with a quickening pulse.
+ 		The same goes for fear, another type of anxiety, which prompts the flight response and releases hormones that make the heart pump faster.</p>
+ 	</blockquote><br />
+ 	<div align=center>
+		<img src=".\images\emotion.png" width="500" height="380" /></div>
+</div>
 
-<h3>About These Terms</h3>
-<p>These Terms and Conditions are just a sample and are not legally binding. Real Terms of Services do not (usually) contain vegetables...</p>
+
+<div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Eating </h4>
+		<p>After you eat a meal, your heart rate increases to aid with digestion. 
+		More blood is directed toward the gastrointestinal tract to process the food. 
+		When larger quantities of food are consumed, heart rate may be increased.</p>
+	</blockquote><br /><br />
+ 	<div align=center>
+		<img src=".\images\eating.png" width="500" height="380" /></div>
+</div>
+		
+ <div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Exercise </h4>
+		<p>Like emotional stress, physical stress also can influence heart rate. 
+		During exercise, your heart rate goes up to facilitate the increased demand for oxygen and carbon dioxide removal to and from the muscles.
+		Heart rate can increase two to three times above resting heart rate depending on the intensity and duration of exercise.</p>
+ 	</blockquote>
+ 	<div align=center>
+		<img src=".\images\exercise.png" width="500" height="380" /></div>
+</div>
+
+ <div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Age </h4>
+		<p>As you age, your resting and daily average heart rate does not change significantly.
+ 		However, your maximum heart rate decreases as you get older due to the physiological effects of aging, 
+ 		such as telomere shortening and associated deconditioning. </p>
+ 	</blockquote>
+ 	<div align=center>
+		<img src=".\images\age.png" width="500" height="380" /></div>
+</div>
+
+ <div class="section">
+	<blockquote>
+		<h4 style="font-weight:bold"> Medications </h4>
+		<p>All types of over the counter, prescription,
+ 		herbal supplements, and any drugs will have an impact on your heart rate. </p>
+ 	</blockquote><br /><br /><br />
+ 	<div align=center>
+		<img src=".\images\medications.png" width="500" height="380" /></div>
+</div>
+
 
 
             <footer>
