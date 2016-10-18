@@ -60,6 +60,7 @@
 		.content {
   		position: relative;
   		min-height: 2160px;
+		min-width:1000px;
   		background: #fff;
   		margin-left: 240px;
   		border-left: 1px solid #cccccc;
