@@ -57,8 +57,6 @@ public class DocController {
 	public String calendarChange(HttpServletRequest request, HttpServletResponse response){
 		return "calendar";
 	}
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> origin/master
+
