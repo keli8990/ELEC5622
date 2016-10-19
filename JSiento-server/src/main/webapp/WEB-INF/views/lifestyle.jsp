@@ -143,23 +143,10 @@
 					
 				</ul></li>
 
-			<li data-popover="true"
-				data-content="Items in this group require a <strong><a href='http://portnine.com/bootstrap-themes/aircraft' target='blank'>premium license</a><strong>."
-				rel="popover" data-placement="right"><a href="#"
-				data-target=".premium-menu" class="nav-header collapsed"
-				data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i>
-					- User List -<i class="fa fa-collapse"></i></a></li>
-			<li><ul class="premium-menu nav nav-list collapse">
-					<li class="visible-xs visible-sm"><a href="#">- User List -</a></span>
-					<li><a href="userslist"><span
-							class="fa fa-caret-right"></span> All Users' Info</a></li>
-					
-				</ul></li>
-
 			<li><a href="#" data-target=".accounts-menu"
 				class="nav-header collapsed" data-toggle="collapse"><i
 					class="fa fa-fw fa-briefcase"></i> News <span
-					class="label label-info">+3</span></a></li>
+					class="label label-info">+2</span></a></li>
 			<li><ul class="accounts-menu nav nav-list collapse">
 					<li><a href="life_page"><span class="fa fa-caret-right"></span>
 							Life Style</a></li>
