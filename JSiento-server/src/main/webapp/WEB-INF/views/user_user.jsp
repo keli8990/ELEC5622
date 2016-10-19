@@ -168,7 +168,7 @@
 			<li><a href="#" data-target=".accounts-menu"
 				class="nav-header collapsed" data-toggle="collapse"><i
 					class="fa fa-fw fa-briefcase"></i> News <span
-					class="label label-info">+3</span></a></li>
+					class="label label-info">+2</span></a></li>
 			<li><ul class="accounts-menu nav nav-list collapse">
 					<li><a href="liftstyle.jsp"><span class="fa fa-caret-right"></span>
 							Lift Style</a></li>
