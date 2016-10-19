@@ -248,10 +248,10 @@
     <div class="content">
         <div class="header">
             
-            <h1 class="page-title">Users</h1>
+            <h1 class="page-title">Calendar</h1>
                     <ul class="breadcrumb">
             <li><a href="index.html">Home</a> </li>
-            <li class="active">Users</li>
+            <li class="active">Calendar</li>
         </ul>
 
         </div>

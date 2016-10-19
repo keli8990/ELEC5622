@@ -161,7 +161,8 @@
 			<li><ul class="dashboard-menu nav nav-list collapse in">
 					<li><a href="index.html"><span class="fa fa-caret-right"></span>
 							Main</a></li>
-					
+					<li><a href="appointment_page"><span class="fa fa-caret-right"></span>
+							Appointment</a></li>
 				</ul></li>
 
 			
@@ -212,19 +213,7 @@
 						<div class="tab-pane active in" id="home">
 						<br><br><br>
 						<div class="col-md-5">
-						
-								
-								
-							
-                
-                
-            
-       
-   
-   
-
-			
-								
+									
 								
 								</div>
 							<form id="tab">
@@ -582,30 +571,9 @@
         };
        
         
-    </script>
-					
-					
-					
-					
-					
-
-				
+    </script>		
 
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   

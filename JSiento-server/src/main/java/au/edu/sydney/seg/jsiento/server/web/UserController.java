@@ -279,6 +279,9 @@ public class UserController {
 		return "redirect:/user_userslist";
 
 		}
-	
+	@RequestMapping(value = "appointment_page", method = RequestMethod.GET)
+	public String appointmentChange(HttpServletRequest request, HttpServletResponse response){
+		return "appointment";
+	}
 
 }

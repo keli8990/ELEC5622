@@ -56,5 +56,5 @@ public class DocController {
 	@RequestMapping(value = "calendar_page", method = RequestMethod.GET)
 	public String calendarChange(HttpServletRequest request, HttpServletResponse response){
 		return "calendar";
-}
+	}
 }
