@@ -127,7 +127,8 @@
 			<li><ul class="dashboard-menu nav nav-list collapse in">
 					<li><a href="index.html"><span class="fa fa-caret-right"></span>
 							Main</a></li>
-					
+					<li><a href=calendar_page><span class="fa fa-caret-right"></span>
+							Calendar</a></li>
 				</ul></li>
 
 			<li data-popover="true"
