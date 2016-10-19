@@ -53,4 +53,7 @@ public class DocController {
 	public String lifeChange(HttpServletRequest request, HttpServletResponse response){
 		return "lifestyle";
 	}
+	@RequestMapping(value = "calendar_page", method = RequestMethod.GET)
+	public String calendarChange(HttpServletRequest request, HttpServletResponse response){
+		return "calendar";
 }
