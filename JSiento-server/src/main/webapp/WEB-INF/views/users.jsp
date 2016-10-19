@@ -137,24 +137,12 @@
 				data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i>
 					- User List -<i class="fa fa-collapse"></i></a></li>
 			<li><ul class="premium-menu nav nav-list collapse">
-					<li class="visible-xs visible-sm"><a href="#">- User List -</a></span>
+					<li class="visible-xs visible-sm"><a href="#">- User List -</a>
 					<li><a href="userslist"><span
 							class="fa fa-caret-right"></span> All Users' Info</a></li>
 					
 				</ul></li>
 
-			<li><a href="#" data-target=".accounts-menu"
-				class="nav-header collapsed" data-toggle="collapse"><i
-					class="fa fa-fw fa-briefcase"></i> News <span
-					class="label label-info">+3</span></a></li>
-			<li><ul class="accounts-menu nav nav-list collapse">
-					<li><a href="sign-in.html"><span class="fa fa-caret-right"></span>
-							Lift Style</a></li>
-					<li><a href="sign-up.html"><span class="fa fa-caret-right"></span>
-							Fitness</a></li>
-					
-
-		</ul>
     </div>
 
     <div class="content">
