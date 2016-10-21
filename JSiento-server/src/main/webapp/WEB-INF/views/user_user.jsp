@@ -171,9 +171,9 @@
 					class="fa fa-fw fa-briefcase"></i> News <span
 					class="label label-info">+2</span></a></li>
 			<li><ul class="accounts-menu nav nav-list collapse">
-					<li><a href="liftstyle.jsp"><span class="fa fa-caret-right"></span>
+					<li><a href="life_page"><span class="fa fa-caret-right"></span>
 							Lift Style</a></li>
-					<li><a href="fit.jsp"><span class="fa fa-caret-right"></span>
+					<li><a href="fit_page"><span class="fa fa-caret-right"></span>
 							Fitness</a></li>
 					
 
