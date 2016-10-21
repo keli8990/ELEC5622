@@ -8,5 +8,5 @@ The project designed by the group 5 is mainly used to help old people who have p
 * Development of a webpage which contains detailed the health data, its relative safe range and corresponding health suggestion for patients
 * Development of a remote media file as a convenient method for doctors to ask for information
 
-# Wiki
+# [Wiki](https://github.com/keli8990/ELEC5622/wiki)
 For more detailed information and project wiki, please from the link to [wiki](https://github.com/keli8990/ELEC5622/wiki).
