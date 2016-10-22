@@ -45,7 +45,7 @@ public class FileDownLoadController {
 
 //			  int userId = 123;
 			  response.setContentType("application/x-excel");
-			  String filename = user.getName() + ".xls";
+			  String filename = user.getName() + " "+ new Date().toGMTString()+ ".xls";
 		      response.setHeader("Content-Disposition", "attachment; filename=" + filename); 
 		      getExcelFromUser(user, bf_list).write(response.getOutputStream());
 		      response.flushBuffer();
