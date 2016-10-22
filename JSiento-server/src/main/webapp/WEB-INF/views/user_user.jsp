@@ -377,6 +377,10 @@
 						data-target=".bs-example-modal-l"><i
 							class="glyphicon glyphicon-th-list"></i>&nbsp;Sc Data</button>
 
+					<a id="excelDownload" href = "/JSiento-server/download" class="btn btn-primary">
+					<i class="glyphicon glyphicon-cloud-download"></i> 
+					Export Data</a>
+
 					<div class="modal fade bs-example-modal-l" tabindex="-1"
 						role="dialog" aria-labelledby="myLargeModalLabel">
 						<div class="modal-dialog modal-lg" role="document">
