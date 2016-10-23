@@ -65,7 +65,7 @@ public class FileDownLoadController {
 		Sheet secondSheet = wb.createSheet();
 		//set sheet title
 		wb.setSheetName(0, "User Profile");
-		wb.setSheetName(1, "Bio Features");
+		wb.setSheetName(1, "Bio Features Statistics”);
 
 		// declare a row object reference
 		Row r = null;
