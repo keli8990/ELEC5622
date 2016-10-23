@@ -41,9 +41,9 @@ public class FileDownLoadController {
 			//if you login in as user , you will have userid from session
 			  EntityUsers user = (EntityUsers) request.getSession().getAttribute("userdetail");
 			  int userId = user.getId();
+			//get bflist from session
 			  List<EntityBioFeatures> bf_list = (List<EntityBioFeatures>) request.getSession().getAttribute("bflist");
 
-//			  int userId = 123;
 			  response.setContentType("application/x-excel");
 			  String filename = user.getName() + " "+ new Date().toGMTString()+ ".xls";
 		      response.setHeader("Content-Disposition", "attachment; filename=" + filename); 
