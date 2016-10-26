@@ -8,9 +8,12 @@ The project designed by the group 5 is mainly used to help old people who have p
 * Development of a webpage which contains detailed the health data, its relative safe range and corresponding health suggestion for patients.
 * Development of a remote media file as a convenient method for doctors to ask for information.
 
-# [Wiki](https://github.com/keli8990/ELEC5622/wiki)
-For more detailed information and project wiki, please from the link to [wiki](https://github.com/keli8990/ELEC5622/wiki).
-
 # How to install
 * The service is based on the Spring MVC and Postgres DB.
 * An Arduino e-health kit is needed for deploying the client.
+
+# [Wiki](https://github.com/keli8990/ELEC5622/wiki)
+For more detailed information and project wiki, please from the link to [wiki](https://github.com/keli8990/ELEC5622/wiki).
+
+# YouTube video
+Please see at the link to [YouTube video](https://youtu.be/Ak_eFCz34UY)
