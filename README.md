@@ -15,5 +15,5 @@ The project designed by the group 5 is mainly used to help old people who have p
 # [Wiki](https://github.com/keli8990/ELEC5622/wiki)
 For more detailed information and project wiki, please from the link to [wiki](https://github.com/keli8990/ELEC5622/wiki).
 
-# YouTube video
+# [YouTube video](https://youtu.be/Ak_eFCz34UY)
 Please see at the link to [YouTube video](https://youtu.be/Ak_eFCz34UY)
